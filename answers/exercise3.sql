@@ -1,0 +1,1 @@
+select * from enrollments right join on enrollments.studentid=students.studentid;

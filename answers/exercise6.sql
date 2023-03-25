@@ -1,0 +1,1 @@
+select count(studentid), country from students group by country having count(*) > 10;
